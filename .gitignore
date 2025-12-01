@@ -1,0 +1,19 @@
+# --- IGNORAR CARPETAS ENTERAS ---
+old/
+.ipynb_checkpoints/
+
+# --- IGNORAR ARCHIVOS SUELTOS ---
+*.pptx
+*.xlsx
+
+# --- CARPETA may2025: subir solo .avi ---
+may2025/**          # ignorar todo
+!may2025/**/*.avi   # excepto los vídeos AVI
+!may2025/**/        # pero mantener la estructura de carpetas
+
+# --- OPCIONAL: ignorar archivos enormes que subió trackpy o MATLAB ---
+# *.csv
+
+# --- IGNORES GENERALES ---
+.DS_Store
+Thumbs.db
